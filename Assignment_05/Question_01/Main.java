@@ -1,9 +1,9 @@
-package com.shreyash;
+package com.manish;
 
 public class Main {
 
 	public static void main(String[] args) {
-		BST_BinarySearchUsingRecursion tree = new BST_BinarySearchUsingRecursion();
+		BST_addNodeUsingRecursion tree = new BST_addNodeUsingRecursion();
 
 		tree.addNode(8);
 		tree.addNode(14);
@@ -17,13 +17,5 @@ public class Main {
 
 		tree.inOrder();
 
-		BST_BinarySearchUsingRecursion.Node key = tree.searchNode(77);
-
-		if (key != null) {
-			System.out.println("\nKey Found");
-		} else {
-
-			System.out.println("\nKey Not Found");
-		}
 	}
 }
